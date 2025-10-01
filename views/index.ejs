@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+
+    <div class="posts-area d-flex justify-content-center">
+        <ul class="d-flex flex-column justify-content-cente" id="list">
+            <% posts.forEach(post => { %>
+                <li class="post">
+                    <div class="d-flex justify-content-between">
+                    <h1> <a href="/view/<%= posts.indexOf(post) %>"><%= post.title %> </a></h1>
+                    <h1> <%= post.date %></h1>
+                </div>
+                    <h2> <%= post.text %> </h2>
+                </li>
+                <% }); %>
+        </ul>
+    </div>
+
+
+    
+    </body>
+
+    </html>

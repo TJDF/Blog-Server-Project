@@ -1,0 +1,105 @@
+*{
+    --bc-color: rgb(245, 245, 245);
+    --delete-color: rgb(228, 30, 30);
+    --color1: rgb(230 132 106);
+    --main-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    border-style: none;
+}
+
+body{
+    background-color: var(--bc-color);
+}
+
+
+.main{
+    width: 80%;
+    margin: 50px auto;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: var(--main-color);
+}
+
+.title{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+}
+
+.text-box{
+    height: 200px;
+    font-size: 25px;
+}
+
+.container-submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit{
+    border-style: none;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    color: var(--bc-color);
+    background-color: var(--color1);
+}
+
+.btn-delete{
+    border-style: none;
+    border-radius: 6px;
+    height: 40px;
+    width: 100px; 
+    color: var(--bc-color);
+    background-color: var(--delete-color);
+}
+
+.edit-btn{
+    width: 100%;
+    margin: 10px auto;
+  
+
+}
+
+.posts-area{
+    width: 80%;
+    margin: 50px auto;
+    background-color: var(--bc-color);
+    gap: 5px;
+}
+
+.post{
+    background-color: var(--main-color);
+    border-radius: 9px;
+    padding: 20px;
+}
+
+
+.post h1{
+    font-size: 35px;
+}
+
+.post h2{
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    gap: 30px;
+}
+
+#list{
+    padding: 0;
+    width: 100%;
+}
+
+button{
+    background-color: var(--main-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color1);
+}
